@@ -1,0 +1,41 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.box {
+  view-transition-name: box;
+
+  width: 400px;
+  aspect-ratio: 1;
+  border: 10px solid;
+  display: grid;
+  place-content: center;
+  font-size: 2rem;
+  position: absolute;
+}
+
+.box-top-left {
+  top: 0;
+  left: 0;
+}
+
+.box-top-right {
+  top: 0;
+  right: 0;
+}
+
+.box-bottom-left {
+  bottom: 0;
+  left: 0;
+}
+
+.box-bottom-right {
+  bottom: 0;
+  right: 0;
+}
+
+button {
+  z-index: 10;
+  position: relative;
+}
